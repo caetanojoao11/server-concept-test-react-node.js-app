@@ -8,7 +8,7 @@ const UserModel = require('./models/User.js'); // Ensure the correct path to the
 // Establish the Sequelize connection
 const sequelize = require('./config/database');
 
-const userRoute = require('./routes/userRoutes.js');
+// const userRoute = require('./routes/userRoutes.js');
 
 const app = express();
 
